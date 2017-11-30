@@ -9,15 +9,29 @@ html {
 
 body {
   display: block;
-  margin: 0 1em;
+  margin: 0;
+  background-color: #f2f2f2;
+  padding: 1.5rem;
 }
 
 h1 {
   text-align: center;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 2em;
+  margin: 0;
+  margin-bottom: 1rem;
 }
+
+img {
+  display: block;
+  max-width: 100px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto 1.5rem;
+  padding: 0;
+}
+
 .one {
   padding: .75rem;
   display: inline-block;
@@ -27,6 +41,7 @@ h1 {
   border-left-style: solid;
   border-color: #333;
   background-color: #e2e2e2;
+  height: 400px;
 }
 
 .two {
@@ -63,34 +78,29 @@ h1 {
   background-color: #999;
 }
 
-.image {
-  text-align: center;
-  width: 100px;
-  margin-bottom: 1em;
-}
-
 h3 {
   font-size: 1rem;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   margin: 0;
   text-align: left;
-
+  padding-top: 1em;
 }
 
 .author, .abstract {
-  font-size: .875rem;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
   text-align: left;
 }
 
 .author {
+  font-size: .875rem;
   font-style: italic;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .abstract {
+  font-size: 1rem;
   margin-bottom: 1em;
 }
 
@@ -112,9 +122,10 @@ h3 {
   font-size: .875rem;
   float: left;
 }
+
 a {
   text-decoration: none;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .btn:hover {
