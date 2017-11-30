@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: block;
+}
+
+.one {
+  padding: .75rem;
+  display: inline-block;
+  text-align: center;
+  float: left;
+  width: 25%;
+  border-style: solid;
+  border-color: #333;
+  background-color: #e2e2e2;
+}
+
+.two {
+  padding: .75rem;
+  display: inline-block;
+  text-align: center;
+  float: left;
+  width: 25%;
+  border-style: solid;
+  border-color: #333;
+  background-color: #ccc;
+}
+
+.three {
+  padding: .75rem;
+  display: inline-block;
+  text-align: center;
+  float: left;
+  width: 25%;
+  border-style: solid;
+  border-color: #333;
+  background-color: #aaa;
+}
+
+.four {
+  padding: .75rem;
+  display: inline-block;
+  text-align: center;
+  float: left;
+  width: 25%;
+  border-style: solid;
+  border-color: #333;
+  background-color: #999;
+}
+
+.image {
+  text-align: center;
+  width: 100px;
+}
+
+h2 {
+  font-size: 1rem;
+  font-family: Open Sans, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  text-align: left;
+
+}
+
+.author, .abstract {
+  font-size: .875rem;
+  font-family: Open Sans, sans-serif;
+  margin: 0;
+  text-align: left;
+}
+
+.author {
+  font-style: italic;
+  font-family: Open Sans, sans-serif;
+
+}
+
+.btn {
+  font-size: .875rem;
+  display: inline-block;
+  float: left;
+  border-style: solid;
+  padding: .4em .75em .3em;
+  border-width: 3px;
+  border-radius: 8px;
+  border-color: #333;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  margin-top: .3em;
+
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
