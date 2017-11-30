@@ -17,7 +17,7 @@ body {
   text-align: center;
   float: left;
   width: 25%;
-  border-style: solid;
+  border-left-style: solid;
   border-color: #333;
   background-color: #e2e2e2;
 }
@@ -28,7 +28,7 @@ body {
   text-align: center;
   float: left;
   width: 25%;
-  border-style: solid;
+  border-left-style: solid;
   border-color: #333;
   background-color: #ccc;
 }
@@ -39,7 +39,7 @@ body {
   text-align: center;
   float: left;
   width: 25%;
-  border-style: solid;
+  border-left-style: solid;
   border-color: #333;
   background-color: #aaa;
 }
@@ -50,7 +50,8 @@ body {
   text-align: center;
   float: left;
   width: 25%;
-  border-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
   border-color: #333;
   background-color: #999;
 }
@@ -58,6 +59,7 @@ body {
 .image {
   text-align: center;
   width: 100px;
+  margin-bottom: 1em;
 }
 
 h2 {
@@ -79,7 +81,10 @@ h2 {
 .author {
   font-style: italic;
   font-family: Open Sans, sans-serif;
+}
 
+.abstract {
+  margin-bottom: 1em;
 }
 
 .btn {
@@ -96,6 +101,7 @@ h2 {
   text-decoration: none;
   font-family: Open Sans, sans-serif;
   margin-top: .3em;
+  margin-bottom: 1em;
 
 }
 
